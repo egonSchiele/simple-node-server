@@ -1,0 +1,6 @@
+version: "3"
+services:
+  simple-node-server:
+    build: ./
+    ports:
+      - "80:80"
